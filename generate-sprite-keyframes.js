@@ -2,10 +2,10 @@
  * This file generates the code in @keyframes sprite
  */
 
-let lines = [];
+const lines = [];
 
 for (let i = 0; i < 20; i++) {
-	const startingPercentage = i == 0 ? 0 : ((i * 66) / 20 + 0.0001).toFixed(4);
+	const startingPercentage = i === 0 ? 0 : ((i * 66) / 20 + 0.0001).toFixed(4);
 	const endingPercentage = (((i + 1) * 66) / 20).toFixed(4);
 	lines.push(`  ${startingPercentage}%, ${endingPercentage}% {`);
 	if (i < 2) {

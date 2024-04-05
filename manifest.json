@@ -1,20 +1,20 @@
 {
-  "id": "dev.oirnoir.onekoanimation",
-  "name": "Oneko Animation",
-  "description": "Oneko living on your message bar",
-  "author": {
-    "name": "OIRNOIR",
-    "discordID": "720842469024989195",
-    "github": "oirnoir"
-  },
-  "version": "1.0.11",
-  "updater": {
-    "type": "store",
-    "id": "dev.oirnoir.onekoanimation"
-  },
-  "license": "GPL",
-  "type": "replugged-theme",
-  "main": "src/main.css",
+	"id": "dev.oirnoir.onekoanimation",
+	"name": "Oneko Animation",
+	"description": "Oneko living on your message bar",
+	"author": {
+		"name": "OIRNOIR",
+		"discordID": "720842469024989195",
+		"github": "oirnoir"
+	},
+	"version": "1.0.11",
+	"updater": {
+		"type": "store",
+		"id": "dev.oirnoir.onekoanimation"
+	},
+	"license": "GPL",
+	"type": "replugged-theme",
+	"main": "src/main.css",
 	"source": "https://github.com/OIRNOIR/oneko-animation",
 	"image": "https://github.com/OIRNOIR/oneko-animation/blob/master/preview.gif?raw=true"
 }
