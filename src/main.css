@@ -6,7 +6,7 @@
  * @source https://github.com/OIRNOIR/oneko-animation
  */
 
-[class^="channelTextArea"]::before {
+[class^="channelTextArea_"]::before {
 	content: "";
 	width: 32px;
 	height: 32px;
