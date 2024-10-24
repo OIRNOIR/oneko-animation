@@ -1,7 +1,7 @@
 /**
  * @name Oneko Animation
  * @author OIRNOIR
- * @version 1.0.11
+ * @version 1.0.13
  * @description Oneko living on your message bar
  * @source https://github.com/OIRNOIR/oneko-animation
  */
@@ -17,10 +17,12 @@
 	background-image: url("https://raw.githubusercontent.com/adryd325/oneko.js/14bab15a755d0e35cd4ae19c931d96d306f99f42/oneko.gif");
 	animation: sprite 45s infinite, motion 45s infinite linear;
 	pointer-events: none;
+	/* Discord added these breaking tags for some reason so unset them */
+	top: unset;
+	left: unset;
 }
 
 @keyframes sprite {
-
 	0%,
 	3.3000% {
 		background-position: -96px -64px;
