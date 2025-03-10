@@ -1,0 +1,15 @@
+{
+  "name": "oneko-animation",
+  "version": "1.0.13",
+  "description": "Oneko living on your message bar",
+  "private": true,
+  "scripts": {
+    "lint": "biome check . --write"
+  },
+  "keywords": [],
+  "author": "OIRNOIR",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4"
+  }
+}
